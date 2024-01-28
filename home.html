@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>Passport Issuing System</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/home.js"></script>
+
+</head>
+<body>
+    <div class="bk">
+    <img class="img1" src="images/srilanka_logo.png" alt="img1">
+    <span>Department of Imigration and Emigration</span>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About US</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="contact.html">Contact US</a></li>
+                <li><a href="http://localhost/moliproject/faq.php">F&Q</a></li>
+                <li><a href="http://localhost/moliproject/login.php">Login</a></li>
+                <li><a href="http://localhost/myProfile/myprofile.html">My profile</a></li>
+                <li><a href="register.html">Register</a></li>
+				<li><a href="http://localhost/uploadDocuments/uploaddocuments.php">upload Documents</a></li>
+            </ul>         
+        </nav>
+    </header>
+    
+    <div class="bk_main">
+    <div class="wel">
+        <div class="wel_1">
+            <div class="hwa-card">
+                <h1>Welcome to Department Of Imigration and Emigration</h1>
+                <p>Apply for your passport easily and conveniently.</p>
+                <a href="#" class="btn">Login Here</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="hwa">
+
+        <div class="hwa-card">
+          <h3>Our Vision</h3>
+          <p>To be the best immigration service in the region.</p>
+          <br>
+        </div>
+
+
+        <div class="hwa-card">
+          <h3>Our Mission</h3>
+          <p>Regulate the entry and exit of persons, provide citizenship services, while safeguarding the nation's security promoting economic development.</p>
+        </div>
+          
+        
+    </div>
+    </div>
+
+    <h3>Review Us</h3>
+            <br>
+            <form method = "POST" action="home.php">
+                <div>
+                    Name:
+                    <input type="text" id="name" name="name"><br><br>
+
+                    Email:
+                    <input type="text" id="email" name="Email" pattern="[a-z0-9._%+-]+@[a-z0-9._%+-]+\.[a-z]{2,3}" required><br><br>
+
+                    Rate:
+                    <select id="rate" name="Rate">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                    <br><br>
+
+                    Description:
+                    <textarea name="des" name="Description"  row="8" cols="50" id="des"> </textarea> <br><br>
+
+                    <!-- submit button -->
+                    <input type="submit" value="submit" name="sub" id="sub">
+
+
+                </div>
+
+            </form>
+            <br>
+    
+
+    <footer>
+        <p>2023 Passport Issuing Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
